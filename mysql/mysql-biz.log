@@ -1,0 +1,31 @@
+2022-03-13 16:49:34.936  INFO 31163 --- [restartedMain] com.cg.MysqlApplication                  : Starting MysqlApplication using Java 11.0.14 on cg-QTC6 with PID 31163 (/home/cg/studyding/spring/studying/mysql/target/classes started by cg in /home/cg/studyding/spring/studying/mysql)
+2022-03-13 16:49:34.941  INFO 31163 --- [restartedMain] com.cg.MysqlApplication                  : No active profile set, falling back to 1 default profile: "default"
+2022-03-13 16:49:35.074  INFO 31163 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-13 16:49:35.075  INFO 31163 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-13 16:49:35.956  INFO 31163 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-13 16:49:36.013  INFO 31163 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2022-03-13 16:49:36.952  INFO 31163 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-13 16:49:36.967  INFO 31163 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-13 16:49:36.968  INFO 31163 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-13 16:49:37.054  INFO 31163 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-13 16:49:37.055  INFO 31163 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1979 ms
+2022-03-13 16:49:37.351  INFO 31163 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-13 16:49:37.419  INFO 31163 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-13 16:49:37.588  INFO 31163 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-13 16:49:37.704  INFO 31163 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-13 16:49:37.708  WARN 31163 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-03-13 16:49:38.169  INFO 31163 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-13 16:49:38.186  INFO 31163 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-03-13 16:49:38.716  INFO 31163 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-13 16:49:38.724  INFO 31163 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-13 16:49:39.003  WARN 31163 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-13 16:49:39.388  INFO 31163 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-13 16:49:39.428  INFO 31163 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-13 16:49:39.444  INFO 31163 --- [restartedMain] com.cg.MysqlApplication                  : Started MysqlApplication in 5.291 seconds (JVM running for 7.317)
+2022-03-13 17:07:50.412  INFO 31163 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-13 17:07:50.412  INFO 31163 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-13 17:07:50.413  INFO 31163 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-13 17:07:50.441 ERROR 31163 --- [http-nio-8080-exec-1] com.cg.controller.MainController         : i just want to figure out where log will be written
+2022-03-13 22:30:46.460  INFO 31163 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-13 22:30:46.465  INFO 31163 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-13 22:30:46.474  INFO 31163 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
